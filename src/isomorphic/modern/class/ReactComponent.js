@@ -40,7 +40,7 @@ ReactComponent.prototype.isReactComponent = {};
  * accessing `this.state` after calling this method may return the old value.
  *
  * There is no guarantee that calls to `setState` will run synchronously,
- * as they may eventually be batched together.  You can provide an optional
+ * as they may eventually be batched together. You can provide an optional
  * callback that will be executed when the call to setState is actually
  * completed.
  *
